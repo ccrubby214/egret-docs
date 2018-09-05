@@ -69,7 +69,7 @@ texture.saveToFile("image/png", "a/down.png", new egret.Rectangle(20, 20, 100, 1
 
 ### 2.3.drawToTexture()
 
-`egret.RenderTexture`中的`saveToFile()`方法，将指定显示对象绘制为一个纹理
+`egret.RenderTexture`中的`drawToTexture()`方法，将指定显示对象绘制为一个纹理
 
 需要注意的是，这个方法会把当前的纹理清除，如果想要保留之前的纹理，需要使用 2 个 `RenderTexture` 交替绘制。
 
