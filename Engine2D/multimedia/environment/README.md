@@ -9,7 +9,7 @@ Egret 项目可以运行在支持HTML5的桌面浏览器和各种移动浏览器
 #### egret.Capabilities.language
 `egret.Capabilities.language`表示运行内容的系统的语言代码。它的值是ISO 639-1中的小写双字母语言代码。可以参考[ISO 639-1](http://baike.baidu.com/link?url=me8UVbWB-oLjVT_fyxTqPwzf4cagZroNFfbiZy0Meo3VnACeZOup5vabLqoRaDwozxGm-dx600XBZRRV34pkca#2)
 
-其中可能遇到的比价特殊是是以下几项：
+其中可能遇到的比较特殊的是以下几项：
 
 * 简体中文 zh-CN
 * 繁体中文 zh-TW
