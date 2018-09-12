@@ -6,7 +6,7 @@
 * `gap`属性，设置子项之间的间距
 * `horizontalAlign`属性，设置水平对齐方式
 * `verticalAlign`属性，设置垂直对齐方式
-* `padding`系列属性，设置容器内间距，相对于4个边分别可以使用 `paddingTop`, `addingBottom`, `addingLeft`, `paddingRight`
+* `padding`系列属性，设置容器内间距，相对于4个边分别可以使用 `paddingTop`, `paddingBottom`, `paddingLeft`, `paddingRight`
 
 示例：    
 ``` TypeScript   
