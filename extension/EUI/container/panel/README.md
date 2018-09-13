@@ -38,7 +38,7 @@ moveArea
 ```
 titleDisplay
 上面显示效果中顶部的标题
-可以通过 panel.t = "xxxx" 给它赋值
+可以通过 panel.title = "xxxx" 给它赋值
 ```
 ```
 closeButton
