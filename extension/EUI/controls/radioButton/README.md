@@ -47,7 +47,7 @@ private radioChangeHandler(evt:eui.UIEvent):void {
 这样的实现方式较为简单，但缺点是，如果想监视选项的变化，需要在每个单选按钮上都添加`egret.Event.CHANGE`事件侦听。同样，如果想得到最终选定的那个值，就必须循环判断，找到`selected = true`的那个单选按钮，取它的值。所以更推荐使用第二种方案：
 
 ### 方式2：使用RadioButtonGroup
-创建一个`egret.gui.RadioButtonGroup`的实例，并设置到每个单选按钮的`group`属性上。这样的好处在于，只需要处理`RadioButtonGroup`实例上的事件侦听，就能捕获数值的变化，要取得最终选择的值，从`RadioButtonGroup`实例上直接获取即可。示例代码：
+创建一个`eui.RadioButtonGroup`的实例，并设置到每个单选按钮的`group`属性上。这样的好处在于，只需要处理`RadioButtonGroup`实例上的事件侦听，就能捕获数值的变化，要取得最终选择的值，从`RadioButtonGroup`实例上直接获取即可。示例代码：
 ``` TypeScript
 private initRadioButtonWithGroup():void {
     var radioGroup: eui.RadioButtonGroup = new eui.RadioButtonGroup();
