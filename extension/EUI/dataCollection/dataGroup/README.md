@@ -157,6 +157,6 @@ getElementAt 和 getChildAt 获取的对象也是相同的
 
 	numChildren 会获得具体的实例数量，而 numElements 会获得总的数据条数。
 还用之前那个例子，ItemRenderer 的高度是10，DataGroup 的高度是100，DataGroup 的 dataProvider 中有1000条数据。
-numChild 获得的数量是11，而 numElements 获得的数量是 1000。
+numChildren 获得的数量是11，而 numElements 获得的数量是 1000。
 getChildAt 可以在0-10的索引中获取具体的实例对象
 getElementAt 可以在0-999的索引中获取虚拟布局中的元素
